@@ -1,5 +1,10 @@
+pub mod standard_io;
+
 fn main() {
-    println!("Hello, world!");
-    println!("This is fun");
-    println!("Another world");
+    println!("go from there");
+    first();
+}
+
+fn first() {
+    standard_io::example();
 }
