@@ -15,7 +15,7 @@ pub fn example() {
 /*
 simple out put hellow world text
 */
-pub fn hello_world() {
+pub fn print_me() {
     println!("just hello world text")
 }
 
