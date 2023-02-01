@@ -1,6 +1,3 @@
-/*
-learn how input and output work with Rust
-*/
 pub fn example() {
     let mut line: String = String::new();
 
@@ -11,11 +8,9 @@ pub fn example() {
     println!("no of bytes read , {}", b1);
 }
 
-
 /*
 simple out put hellow world text
 */
 pub fn print_me() {
     println!("just hello world text")
 }
-

@@ -1,10 +1,9 @@
 // getting from related module files
-pub mod hello_world;
-pub mod standard_io;
-pub mod variable;
+pub mod a_standard_io;
+pub mod a_module;
 
 // main is root function and used only in file `main.rs`
 fn main() {
-    standard_io::print_me();
-    hello_world::hello_world();
+    // a_standard_io::print_me();
+    a_module::draw_me();
 }
